@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitycartas">
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="289dp"
+        android:layout_height="115dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Cartas enum class"
+        android:textColor="#2196F3"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TextView
+        android:id="@+id/carta4"
+        android:layout_width="102dp"
+        android:layout_height="51dp"
+        android:fontFamily="sans-serif-black"
+        android:text="carta"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
+        tools:text="carta" />
+
+    <TextView
+        android:id="@+id/carta3"
+        android:layout_width="102dp"
+        android:layout_height="51dp"
+        android:fontFamily="sans-serif-black"
+        android:text="carta"
+        android:textColor="#E44848"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        tools:text="carta" />
+
+    <TextView
+        android:id="@+id/carta2"
+        android:layout_width="102dp"
+        android:layout_height="51dp"
+        android:fontFamily="sans-serif-black"
+        android:text="carta"
+        android:textColor="#E44848"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
+        tools:text="carta" />
+
+    <Button
+        android:id="@+id/barajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARAJAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <TextView
+        android:id="@+id/carta1"
+        android:layout_width="102dp"
+        android:layout_height="51dp"
+        android:fontFamily="sans-serif-black"
+        android:text="carta"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        tools:text="carta" />
+</androidx.constraintlayout.widget.ConstraintLayout>
